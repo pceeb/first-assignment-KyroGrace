@@ -8,19 +8,19 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]* --> Lists all files in directory that are uppercase.
-2. cp *.sh /tmp  --> This will Copy all shell script file to a temporary directory.
-3. man pwd --> This will show you a help page of your path in your current directory.
-4. cd ~  --> This will move you to your home directory.
-5. mkdir -p /test1/test2/test3 --> This will create a parent directory which is the test1. Test 2 is then nested into test1 and test3 is nested into test2 which is nested into test1. 
-6. cp -r /tmp . --> This will copy the temporary directory recursively into the current directory that you are in. 
+1. ls [A-Z]* --> This command will lists all files in directory that are uppercase.
+2. cp *.sh /tmp  --> This command will copy all shell script file to a temporary directory.
+3. man pwd --> This command will show you a help page of your path in your current directory.
+4. cd ~  --> This command will move you to your home directory.
+5. mkdir -p /test1/test2/test3 --> This command will create a parent directory which is the test1. Test2 is then nested into test1 and test3 is nested into test2 which is nested into test1. 
+6. cp -r /tmp . --> This command will copy the temporary directory recursively into the current directory that you are in. 
 7. ls | less --> Print/displays the list of all files in the less terminal.
 8. head -n 24 test.txt » abc.txt --> This will print the first 24 lines of the test.txt The two greater than signs will are saying to redirect the first 24 lines into abc.txt file. If you want the last 24 lines, then you would have used less -n 24. 
-9. echo "aaa" > aaa.txt -> This will write-over or print "aaa" into the aaa.txt file. This will over-write anything in that file. 
+9. echo "aaa" > aaa.txt -> This command will write-over or print "aaa" into the aaa.txt file. This will over-write anything in that file. 
 10. ps -u sallesina --> This command displays the current processes that you are using. 
-11. top --> This is a task manager that shows what processes you are using and what other people are using and how much cpu they are using.
+11. top --> This command is a task manager that shows what processes you are using and what other people are using and how much cpu they are using.
 12. ls | grep .sh | xargs mv /tmp --> This command says list any file that is in your current directory and search any .sh file and move them into a temporary directory. 
-13. du -sk /home/* | sort -r -n | head -10  --> This will estimate the file space usage of your home directory. Then the command says to sort them by size and reverse them. The command n is saying list them by size and r is saying list them in reverse, so from largest file to smallest. Then the last command head is saying display the top 10 files.
+13. du -sk /home/* | sort -r -n | head -10  --> This command will estimate the file space usage of your home directory. Then the command says to sort them by size and reverse them. The command n is saying list them by size and r is saying list them in reverse, so from largest file to smallest. Then the last command head is saying display the top 10 files.
 14. sort -r names.txt --> This command is saying sort whatever info is in your names file. The command -r is saying to reverse the regualar order of the info.
 
 **IMPORTANT** 
