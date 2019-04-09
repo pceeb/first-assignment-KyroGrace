@@ -7,6 +7,7 @@ I. Read chapter 2 from the book Introduction to Scientific Computing for Biologi
 The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
 
 II. Answer the following question. What does this do?   
+(JUST CHECKING IF THIS WORKS)
 
 1. ls [A-Z]* --> This command will lists all files in directory that are uppercase.
 2. cp *.sh /tmp  --> This command will copy all shell script file to a temporary directory.
