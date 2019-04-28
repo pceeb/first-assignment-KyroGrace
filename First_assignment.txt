@@ -14,7 +14,7 @@ II. Answer the following question. What does this do?
 3. man pwd --> This command will show you a help page of your path in your current directory. # Incorrect! This will display a help man for `pwd`
 4. cd ~  --> This command will move you to your home directory. # Correct!
 5. mkdir -p /test1/test2/test3 --> This command will create a parent directory which is the test1. Test2 is then nested into test1 and test3 is nested into test2 which is nested into test1. # Correct! But you could get that with `mkdir` what is -p doing here?
-6. cp -r /tmp . --> This command will copy the temporary directory recursively into the current directory that you are in. # Incorrect! -r here doesnt mean  recursively. Also, you are not copying files to /tmp not the current directory. Notice the diference between /tmp and tmp/.
+6. cp -r /tmp . --> This command will copy the temporary directory recursively into the current directory that you are in. # Incorrect! But you are not copying files to /tmp not the current directory. Notice the diference between /tmp and tmp/.
 7. ls | less --> Print/displays the list of all files in the less terminal. # Correct!
 8. head -n 24 test.txt » abc.txt --> This will print the first 24 lines of the test.txt The two greater than signs will are saying to redirect the first 24 lines into abc.txt file. If you want the last 24 lines, then you would have used less -n 24. # Correct! 
 9. echo "aaa" > aaa.txt -> This command will write-over or print "aaa" into the aaa.txt file. This will over-write anything in that file. # Correct! 
